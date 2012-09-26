@@ -1,0 +1,20 @@
+{
+    "author": "Ignacio Olaciregui <ignacio@popego.com>",
+    "name": "pixel",
+    "version": "0.0.1",
+    "description": "Pixel for tracking browser data.",
+    "dependencies": {},
+    "devDependencies": {
+        "jsdom": "*",
+        "sinon": "*",
+        "uglify-js": "*",
+        "buster": "*",
+        "serve": "*"
+    },
+    "scripts": { 
+        "test": "make test" 
+    },
+    "engines": { "node": ">= 0.4.x" },
+    "main": "./dist/pixel.js"
+}
+
